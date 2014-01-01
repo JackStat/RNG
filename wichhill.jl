@@ -1,4 +1,5 @@
-function wichhill()
+whseed=[1,2,3]
+function wichhill(whseed=whseed)
 
     whseed[1] = 171 * mod(whseed[1], 30269)
     whseed[2] = 172 * mod(whseed[2], 30307)
